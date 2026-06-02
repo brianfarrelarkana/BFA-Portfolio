@@ -1,0 +1,145 @@
+{
+  "EN": {
+    "nav_about": "About",
+    "nav_projects": "Projects",
+    "nav_services": "Services",
+    "nav_contact": "Contact",
+
+    "title_main": "Portfolio",
+    "title_sub": "Website",
+
+    "scroll_down": "Scroll Down For More",
+    "scroll_up": "Swipe Up For More",
+
+    "about_name": "Hi, I'm Brian Farrel",
+    "about_role": "Software Developer",
+    "about_content": "Hi! I'm a software developer with interests in *Desktop Applications Development*, *Web Development*, *Game Development*, and *Data Analysis*. I enjoy exploring new technologies and building solutions that solve real-world problems.\n\nMy experience includes working with *Python*, *Laravel*, and *MySQL*, where I focus on creating reliable systems and continuously improving both technical and problem-solving skills.",
+    "download": "Download CV",
+
+    "projects_title": "Projects",
+
+    "internship": "Internship",
+    "project": "Project",
+
+    "project_title1": "CV. MGP Sales Dashboard",
+    "project_desc1": "Built an interactive dashboard for data visualization and analysis using Python, enabling better insights from large datasets.",
+    "project_long_desc1": "Developed an offline desktop sales dashboard application using *Python* for CV. MGP to monitor and analyze sales performance through interactive data visualizations. The application was designed to simplify sales analysis and improve operational efficiency. The project was completed within a *3-month development period* as an independent *solo development project*.\n\nThe system includes additional features such as setting sales targets for each salesperson within customizable time periods. Salesperson data can be imported directly from Excel or CSV files. To improve efficiency, the application is capable of reading multiple Excel/CSV raw data files simultaneously from a single folder path.",
+
+    "project_title2": "Sasa Catering Sales Dashboard",
+    "project_desc2": "Built an interactive dashboard for data visualization and analysis using Python, enabling better insights from large datasets.",
+    "project_long_desc2": "Developed an offline desktop sales dashboard application using *Python* for Sasa Catering to monitor and analyze sales performance through interactive data visualizations. The application was designed to simplify sales analysis and improve operational efficiency. The project was completed within a *2-month development period* as part of a collaborative *team development project*.\n\nThe system includes full Create, Read, Update, and Delete (CRUD) functionality, allowing users not only to import multiple Excel/CSV files, but also to input or edit the processed data directly within the application without affecting the original source files. Users can also export data visualizations as PNG images and export processed data into Excel/CSV formats for reporting and further analysis.",
+
+    "project_title3": "Extracuricular Information & Management Website",
+    "project_desc3": "Developed a Laravel-based web application for managing extracurricular information, registration, and attendance tracking.",
+    "project_long_desc3": "Developed a web application using *Laravel Framework* for managing extracurricular information and activities for SMA Negeri 1 Purbalingga. The application was designed to help students easily access information about available extracurricular programs, while also serving as a platform for extracurricular registration and attendance tracking. The project was completed within a *2-month development period* as part of a collaborative *team project*.\n\nThe system includes two main roles: Super Admin and Admin. Super Admins, managed by teachers, can oversee all extracurricular activities, manage admin accounts, and add or remove extracurricular administrators. Meanwhile, each Admin has full Create, Read, Update, and Delete (CRUD) access to manage their respective extracurricular pages, including text content, images, and embedded media links such as YouTube and Instagram.",
+
+    "project_title4": "Pet Care Information & Queue Ordering Website",
+    "project_desc4": "Developed a Laravel-based web application for managing pet care clinic information and connecting queue reservation services between the clinic and customers.",
+    "project_long_desc4": "Developed a web application using *Laravel Framework* and *Firebase* for managing pet care clinic information and online queue reservation services for clinics in the Purwokerto area. The application helps pet owners access clinic information and reserve queue numbers online, with a separate booking fee payment handled through the web application. The project was completed within a *2-month development period* as part of a collaborative *team project*.\n\nThe system includes two main roles: Admin and User. Admins have full Create, Read, Update, and Delete (CRUD) access to manage partnered clinic data and services, while Users can manage their profiles, reserve queue numbers, and monitor their queue progress in real time.",
+
+    "service_trigger": "Make your own with me",
+
+    "services_title": "Services",
+    "get": "What You Get",
+    "tools": "Tools I Use",
+
+    "service_title1": "Desktop Application Development",
+    "service_desc1": "Built a desktop application using Python and PySide6 as your requirement.",
+    "service_tech1": "Desktop Application • Python • Electron",
+    "get_1_1": "Custom UI/UX design with your design preferences",
+    "get_1_2": "Interactive features based on your needs",
+    "get_1_3": "Data flexibility and visualization capabilities",
+
+    "service_title2": "Website Development",
+    "service_desc2": "Built a website using Laravel or native as your requirement.",
+    "service_tech2": "Web Development • Laravel • Firebase",
+    "get_2_1": "Custom UI/UX design with your design preferences",
+    "get_2_2": "Interactive features based on your needs",
+    "get_2_3": "Database integration and management",
+
+    "service_title3": "Machine Learning & Data Analysis",
+    "service_desc3": "Developed machine learning models and data analysis solutions for various business applications.",
+    "service_tech3": "Machine Learning • Data Analysis • Python",
+    "get_3_1": "Custom machine learning models",
+    "get_3_2": "Data analysis and visualization",
+    "get_3_3": "Python and data science expertise",
+
+    "interested": "Interested?",
+    "contact_me": "Contact Me",
+
+    "contact_title": "Contact",
+    "contact_description": "Feel free to reach out for collaboration or opportunities."
+  },
+
+  "ID": {
+    "nav_about": "Tentang",
+    "nav_projects": "Proyek",
+    "nav_services": "Layanan",
+    "nav_contact": "Kontak",
+
+    "title_main": "Portofolio",
+    "title_sub": "Web",
+
+    "scroll_down": "Gulir ke bawah untuk detail lebih lanjut",
+    "scroll_up": "Geser ke atas untuk detail lebih lanjut",
+
+    "about_name": "Hai, Saya Brian Farrel",
+    "about_role": "Software Developer",
+     "about_content": "Hai! Saya seorang software developer dengan minat di bidang *Pengembangan Aplikasi Desktop*, *Pengembangan Web*, *Pengembangan Game*, dan *Analisis Data*. Saya suka mempelajari teknologi baru serta mengubah ide menjadi solusi yang bermanfaat untuk menyelesaikan berbagai permasalahan di dunia nyata.\n\nSaya memiliki pengalaman dalam menggunakan *Python*, *Laravel*, dan *MySQL* untuk membangun sistem yang andal. Saya juga selalu berusaha meningkatkan kemampuan teknis dan berpikir analitis untuk menemukan solusi yang efektif untuk setiap tantangan yang dihadapi.",
+    "download": "Unduh CV",
+
+    "projects_title": "Proyek",
+
+    "internship": "Magang",
+    "project": "Proyek",
+
+    "project_title1": "Dashboard Penjualan CV. MGP",
+    "project_desc1": "Membangun dashboard interaktif untuk visualisasi dan analisis data menggunakan Python, yang memungkinkan wawasan yang lebih baik dari kumpulan data besar.",
+    "project_long_desc1": "Mengembangkan aplikasi dashboard penjualan desktop offline menggunakan *Python* untuk CV. MGP untuk memantau dan menganalisis kinerja penjualan melalui visualisasi data interaktif. Aplikasi ini dirancang untuk menyederhanakan analisis penjualan dan meningkatkan efisiensi operasional. Proyek ini diselesaikan dalam *periode pengembangan 3 bulan* sebagai *proyek pengembangan solo* tanpa tim.\n\nSistem ini mencakup fitur tambahan seperti menetapkan target penjualan untuk setiap tenaga penjualan dalam periode waktu yang dapat disesuaikan. Data tenaga penjualan dapat diimpor langsung dari file Excel atau CSV. Untuk meningkatkan efisiensi, aplikasi ini mampu membaca beberapa file data mentah Excel/CSV secara bersamaan dari satu jalur folder.",
+
+    "project_title2": "Dashboard Penjualan Sasa Catering",
+    "project_desc2": "Membangun dashboard interaktif untuk visualisasi dan analisis data menggunakan Python, yang memungkinkan wawasan yang lebih baik dari kumpulan data besar.",
+    "project_long_desc2": "Mengembangkan aplikasi dasbor penjualan desktop offline menggunakan *Python* untuk Sasa Catering untuk memantau dan menganalisis kinerja penjualan melalui visualisasi data interaktif. Aplikasi ini dirancang untuk menyederhanakan analisis penjualan dan meningkatkan efisiensi operasional. Proyek ini diselesaikan dalam *periode pengembangan 2 bulan* sebagai bagian dari *proyek pengembangan tim* kolaboratif.\n\nSistem ini mencakup fungsionalitas Create, Read, Update, dan Delete (CRUD) lengkap, memungkinkan pengguna tidak hanya mengimpor beberapa file Excel/CSV, tetapi juga memasukkan atau mengedit data yang diproses langsung di dalam aplikasi tanpa memengaruhi file sumber aslinya. Pengguna juga dapat mengekspor visualisasi data sebagai gambar PNG dan mengekspor data yang diproses ke format Excel/CSV untuk pelaporan dan analisis lebih lanjut.",
+
+    "project_title3": "Web Informasi & Manajemen Ekstrakurikuler",
+    "project_desc3": "Mengembangkan aplikasi web berbasis Laravel untuk mengelola informasi kegiatan ekstrakurikuler, pendaftaran, dan pelacakan kehadiran.",
+    "project_long_desc3": "Mengembangkan aplikasi web menggunakan *Laravel Framework* untuk mengelola informasi dan kegiatan ekstrakurikuler untuk SMA Negeri 1 Purbalingga. Aplikasi ini dirancang untuk membantu siswa mengakses informasi tentang program ekstrakurikuler yang tersedia dengan mudah, sekaligus berfungsi sebagai platform untuk pendaftaran ekstrakurikuler dan pelacakan kehadiran. Proyek ini diselesaikan dalam *periode pengembangan 2 bulan* sebagai bagian dari *proyek tim* kolaboratif.\n\nSistem ini mencakup dua peran utama: Super Admin dan Admin. Super Admin, yang dikelola oleh guru, dapat mengawasi semua kegiatan ekstrakurikuler, mengelola akun admin, dan menambah atau menghapus administrator ekstrakurikuler. Sementara itu, setiap Admin memiliki akses penuh untuk Membuat, Membaca, Memperbarui, dan Menghapus (CRUD) untuk mengelola halaman ekstrakurikuler masing-masing, termasuk konten teks, gambar, dan tautan media tersemat seperti YouTube dan Instagram.",
+
+    "project_title4": "Web Informasi & Pemesanan Antrian Perawatan Hewan",
+    "project_desc4": "Mengembangkan aplikasi web berbasis Laravel untuk mengelola informasi klinik perawatan hewan peliharaan dan menghubungkan layanan reservasi antrian antara klinik dan pelanggan.",
+    "project_long_desc4": "Mengembangkan aplikasi web menggunakan *Laravel Framework* dan *Firebase* untuk mengelola informasi klinik perawatan hewan peliharaan dan layanan reservasi antrian online untuk klinik di area Purwokerto. Aplikasi ini membantu pemilik hewan peliharaan mengakses informasi klinik dan memesan nomor antrian secara online, dengan pembayaran biaya pemesanan terpisah yang ditangani melalui aplikasi web. Proyek ini diselesaikan dalam *periode pengembangan 2 bulan* sebagai bagian dari *proyek tim* kolaboratif.\n\nSistem ini mencakup dua peran utama: Admin dan Pengguna. Admin memiliki akses penuh untuk Membuat, Membaca, Memperbarui, dan Menghapus (CRUD) untuk mengelola data dan layanan klinik mitra, sementara Pengguna dapat mengelola profil mereka, memesan nomor antrian, dan memantau kemajuan antrian mereka secara real-time.",
+
+    "service_trigger": "Buat milikmu dengan saya",
+
+    "services_title": "Layanan",
+    "get": "Layanan yang Didapat",
+    "tools": "Alat yang Digunakan",
+
+    "service_title1": "Pengembangan Aplikasi Desktop",
+    "service_desc1": "Buat aplikasi desktop menggunakan Python dan PySide6 sesuai kebutuhan Anda.",
+    "service_tech1": "Aplikasi Desktop • Python • Electron",
+    "get_1_1": "Desain UI/UX kustom sesuai preferensi desain Anda.",
+    "get_1_2": "Fitur interaktif berdasarkan kebutuhan Anda",
+    "get_1_3": "Fleksibilitas data dan kemampuan visualisasi",
+
+    "service_title2": "Pengembangan Web",
+    "service_desc2": "Buat situs web menggunakan Laravel atau aplikasi native sesuai kebutuhan Anda.",
+    "service_tech2": "Pengembangan Web • Laravel • Firebase",
+    "get_2_1": "Desain UI/UX kustom sesuai preferensi desain Anda.",
+    "get_2_2": "Fitur interaktif berdasarkan kebutuhan Anda",
+    "get_2_3": "Integrasi dan manajemen basis data",
+
+    "service_title3": "Pembelajaran Mesin & Analisis Data",
+    "service_desc3": "Mengembangkan model pembelajaran mesin dan solusi analisis data untuk berbagai aplikasi bisnis.",
+    "service_tech3": "Pembelajaran Mesin • Analisis Data • Python",
+    "get_3_1": "Model machine learning kustom",
+    "get_3_2": "Visualisasi dan analisis data",
+    "get_3_3": "Python dan data sains",
+
+    "interested": "Tertarik?",
+    "contact_me": "Hubungi Saya",
+
+    "contact_title": "Kontak",
+    "contact_description": "Silakan hubungi saya untuk kolaborasi atau peluang kerja."
+  }
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Brian Farrel</title>
+    <link rel="icon" type="image/png" href="Images/Icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <div class="nav-left">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <img src="Images/Dark/BFA.png" class="nav-logo" id="logoNav">
+
+        <div class="nav-center">
+            <a data-lang="nav_about" href="#about"></a>
+            <a data-lang="nav_projects" href="#projects"></a>
+            <a data-lang="nav_services" href="#services"></a>
+            <a data-lang="nav_contact" href="#contact"></a>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-spacer"></div>
+        </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a data-lang="nav_about" href="#about"></a>
+        <a data-lang="nav_projects" href="#projects"></a>
+        <a data-lang="nav_services" href="#services"></a>
+        <a data-lang="nav_contact" href="#contact"></a>
+    </div>
+
+    <div class="gear-container" id="gearContainer">
+        <div class="switch-group" id="switchGroup">
+            <label class="switch lang-switch">
+                <input type="checkbox" id="langToggle">
+                <span class="slider">
+                    <div class="option left">
+                        <img src="Images/id.png">
+                    </div>
+
+                    <div class="option right">
+                        <img src="Images/en.png">
+                    </div>
+
+                    <span class="knob">
+                        <span class="knob-text">EN</span>
+                    </span>
+                </span>
+            </label>
+
+            <label class="switch theme-switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider">
+                    <div class="option left">
+                        <img src="Images/sun.png">
+                    </div>
+
+                    <div class="option right">
+                        <img src="Images/moon.png">
+                    </div>
+
+                    <span class="knob"></span>
+                </span>
+            </label>
+        </div>
+
+        <div class="gear" id="gear">
+            <img src="Images/Dark/Gear.png" class="no-theme">
+        </div>
+    </div>
+
+    <div class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="title-container">
+                <h1 class="main-title">
+                    <span class="title-main" data-lang="title_main"></span>
+                    <span class="title-sub" data-lang="title_sub"></span>
+                </h1>
+            </div>
+
+            <div class="logo">
+                <div class="item"><img src="Images/Dark/BFA.png" alt="BFA Logo"></div>
+            </div>
+
+            <div class="scroll-indicator" id="scrollIndicator">
+                <p data-lang="scroll_down"></p>
+                <img src="Images/Dark/Down Arrow.png" alt="Scroll Arrow">
+            </div>
+        </div>
+    </div>
+
+    <div class="horizontal-section">
+        <div class="horizontal-wrapper">
+            <div class="about" id="about">
+                <div class="about-left">
+                    <img src="Images/Dark/Profile.png" alt="Profile">
+                </div>
+
+                <div class="about-right">
+                    <h1 data-lang="about_name"></h1>
+                    <h3 data-lang="about_role"></h3>
+                    <p data-lang="about_content"></p>
+                    <button class="cv-btn" onclick="downloadCV()" data-lang="download"></button>
+
+                    <div class="about-socials">
+                        <a href="mailto:brianfarrelarkana@gmail.com" target="_blank">
+                            <img src="Images/Dark/Email.png" alt="Email">
+                        </a>
+
+                        <a href="https://instagram.com/brian_farrel" target="_blank">
+                            <img src="Images/Dark/Instagram.png" alt="Instagram">
+                        </a>
+
+                        <a href="https://github.com/brianfarrelarkana" target="_blank">
+                            <img src="Images/Dark/GitHub.png" alt="GitHub">
+                        </a>
+
+                        <a href="https://linkedin.com/in/brian-farrel-arkana" target="_blank">
+                            <img src="Images/Dark/LinkedIn.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects" id="projects">
+                <div class="projects-container">
+                    <h2 class="projects-title" data-lang="projects_title"></h2>
+                    <div class="projects-track">
+                        <div class="project-item" data-project="1">
+                            <div class="project-tag">
+                                2025 - <span data-lang="internship"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="Images/Projects/1/Dokumentasi 1.png" class="main-img">
+                                <img src="Images/Projects/1/Dokumentasi 2.png" class="img-back img-1">
+                                <img src="Images/Projects/1/Dokumentasi 3.png" class="img-back img-2">
+
+                                <div class="overlay">
+                                    <h3 data-lang="project_title1"></h3>
+                                    <p data-lang="project_desc1"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item" data-project="2">
+                            <div class="project-tag">
+                                2025 - <span data-lang="project"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="Images/Projects/2/Dokumentasi 1.png" class="main-img">
+                                <img src="Images/Projects/2/Dokumentasi 2.png" class="img-back img-1">
+                                <img src="Images/Projects/2/Dokumentasi 3.png" class="img-back img-2">
+
+                                <div class="overlay">
+                                    <h3 data-lang="project_title2"></h3>
+                                    <p data-lang="project_desc2"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item" data-project="3">
+                            <div class="project-tag">
+                                2025 - <span data-lang="project"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="Images/Projects/3/Dokumentasi 1.png" class="main-img">
+                                <img src="Images/Projects/3/Dokumentasi 2.png" class="img-back img-1">
+                                <img src="Images/Projects/3/Dokumentasi 3.png" class="img-back img-2">
+
+                                <div class="overlay">
+                                    <h3 data-lang="project_title3"></h3>
+                                    <p data-lang="project_desc3"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item" data-project="4">
+                            <div class="project-tag">
+                                2024 - <span data-lang="project"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="Images/Projects/4/Dokumentasi 1.png" class="main-img">
+                                <img src="Images/Projects/4/Dokumentasi 2.png" class="img-back img-1">
+                                <img src="Images/Projects/4/Dokumentasi 3.png" class="img-back img-2">
+
+                                <div class="overlay">
+                                    <h3 data-lang="project_title4"></h3>
+                                    <p data-lang="project_desc4"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-section" id="servicesSection">
+        <div class="services-wrapper">
+
+            <div class="services" id="services">
+                <div class="services-container">
+                    <h2 class="services-title" data-lang="services_title"></h2>
+
+                    <div class="services-grid">
+
+                        <div class="service-card" data-service="stream">
+                            <h3 data-lang="service_title1"></h3>
+                            <span class="tech" data-lang="service_tech1"></span>
+                            <p data-lang="service_desc1"></p>
+                            <h4 data-lang="get"></h4>
+                            <ul>
+                                <li data-lang="get_1_1"></li>
+                                <li data-lang="get_1_2"></li>
+                                <li data-lang="get_1_3"></li>
+                            </ul>
+
+                            <h4 data-lang="tools"></h4>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Python PySide6</li>
+                                <li>Electron</li>
+                                <li>HTML, CSS, JavaScript</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-card" data-service="dashboard">
+                            <h3 data-lang="service_title2"></h3>
+                            <span class="tech" data-lang="service_tech2"></span>
+                            <p data-lang="service_desc2"></p>
+                            <h4 data-lang="get"></h4>
+                            <ul>
+                                <li data-lang="get_2_1"></li>
+                                <li data-lang="get_2_2"></li>
+                                <li data-lang="get_2_3"></li>
+                            </ul>
+
+                            <h4 data-lang="tools"></h4>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>GitHub</li>
+                                <li>Laravel Framework</li>
+                                <li>Firebase</li>
+                                <li>HTML, CSS, JavaScript, PHP</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-card" data-service="game">
+                            <h3 data-lang="service_title3"></h3>
+                            <span class="tech" data-lang="service_tech3"></span>
+                            <p data-lang="service_desc3"></p>
+                            <h4 data-lang="get"></h4>
+                            <ul>
+                                <li data-lang="get_3_1"></li>
+                                <li data-lang="get_3_2"></li>
+                                <li data-lang="get_3_3"></li>
+                            </ul>
+
+                            <h4 data-lang="tools"></h4>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Google Colaboration</li>
+                                <li>Jupyter Notebook</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="services-cta">
+                        <p data-lang="interested"></p>
+                        <button class="modal-btn" onclick="scrollToSection('#contact')" data-lang="contact_me"></button>
+                    </div>
+                </div>
+                <div class="services-spacer"></div>
+            </div>
+
+            <div class="contact" id="contact">
+                <div class="contact-layer" id="contactLayer">
+                    <div class="contact-container">
+                        <h2 class="contact-title" data-lang="contact_title"></h2>
+
+                        <div class="contact-content">
+                            <p data-lang="contact_description"></p>
+
+                            <div class="contact-icons">
+        
+                                <a href="mailto:brianfarrelarkana@gmail.com" target="_blank">
+                                    <img src="Images/Dark/Email.png" alt="Email">
+                                </a>
+
+                                <a href="https://instagram.com/brian_farrel" target="_blank">
+                                    <img src="Images/Dark/Instagram.png" alt="Instagram">
+                                </a>
+
+                                <a href="https://github.com/brianfarrelarkana" target="_blank">
+                                    <img src="Images/Dark/GitHub.png" alt="GitHub">
+                                </a>
+
+                                <a href="https://linkedin.com/in/brian-farrel-arkana" target="_blank">
+                                    <img src="Images/Dark/LinkedIn.png" alt="LinkedIn">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <p>© 2026 Brian Farrel Arkana. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-modal" id="projectModal">
+        <div class="modal-box">
+            
+            <div class="modal-slider">
+                <button class="back-btn" id="closeProject">
+                    <img src="Images/Dark/Back Arrow.png" alt="Back">
+                </button>
+                <div class="slider-track" id="sliderTrack"></div>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+
+            <div class="tech-scroll">
+                <div class="tech-track" id="techTrack"></div>
+            </div>
+
+            <div class="project-info">
+                <h2 class="modal-title" id="projectTitle"></h2>
+                <img id="projectLogo" class="modal-logo">
+            </div>
+
+            <div class="modal-text" id="projectDesc"></div>
+
+            <div class="modal-btn-wrapper">
+                <button class="modal-btn service-trigger"
+                    data-lang="service_trigger">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
